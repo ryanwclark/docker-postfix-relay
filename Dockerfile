@@ -1,4 +1,4 @@
-FROM ryanwclark/alpine:3.8
+FROM ryanwclark/alpine:3.13
 LABEL maintainer="Ryan Clark (ryanwclark@yahoo.com)"
 
 ## Set Defaults
