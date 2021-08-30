@@ -2,7 +2,6 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/ryanwclark/postfix-relay.svg)](https://hub.docker.com/r/ryanwclark/postfix-relay)
 [![Docker Stars](https://img.shields.io/docker/stars/ryanwclark/postfix-relay.svg)](https://hub.docker.com/r/ryanwclark/postfix-relay)
-[![Docker Layers](https://images.microbadger.com/badges/image/ryanwclark/postfix-relay.svg)](https://microbadger.com/images/ryanwclark/postfix-relay)
 
 
 ## About
@@ -19,17 +18,19 @@ This Container uses Alpine:3.8 as a base.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-    - [Changelog](CHANGELOG.md)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Configuration](#configuration)
-    - [Data Volumes](#data-volumes)
-    - [Environment Variables](#environmentvariables)   
-- [Maintenance](#maintenance)
+- [docker-postfix-relay](#docker-postfix-relay)
+  - [About](#about)
+  - [Maintainer](#maintainer)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisites and Assumptions](#prerequisites-and-assumptions)
+  - [Installation](#installation)
+    - [Quick Start](#quick-start)
+  - [Configuration](#configuration)
+    - [Persistent Storage](#persistent-storage)
+    - [Environment Variables](#environment-variables)
+  - [Maintenance](#maintenance)
     - [Shell Access](#shell-access)
-   - [References](#references)
+  - [References](#references)
 
 ## Prerequisites and Assumptions
 
